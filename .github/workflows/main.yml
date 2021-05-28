@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.actions_website_ftp_server }}
         username: ${{ secrets.actions_website_ftp_username }}
         password: ${{ secrets.actions_website_ftp_password }}
-        server-dir: true
+        server-dir: httpdocs/
