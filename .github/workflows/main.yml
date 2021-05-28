@@ -19,3 +19,6 @@ jobs:
         password: ${{ secrets.actions_website_ftp_password }}
         server-dir: httpdocs/
         exclude: README.md
+          - **.git*
+          - .git*/**
+          -  **/.git*/**
