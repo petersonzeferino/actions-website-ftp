@@ -3151,6 +3151,14 @@ body {
   color: #3ea1ec;
 }
 
+.btn-download {
+  color: #edde34;
+}
+
+.btn-download:hover, .btn-download:focus, .btn-download:active {
+  color: #edde34;
+}
+
 .btn-facebook {
   color: #3b5998;
 }
@@ -7269,8 +7277,12 @@ Created using IcoMoon - icomoon.io
   color: #dd4b39;
 }
 
-.cc-instagram:hover i {
+.cc-linkedin:hover i {
   color: #405de6;
+}
+
+.cc-download:hover i {
+  color: #edde34;
 }
 
 .cc-github:hover i {
